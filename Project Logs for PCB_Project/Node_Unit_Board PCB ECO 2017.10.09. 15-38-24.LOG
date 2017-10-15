@@ -1,0 +1,8 @@
+Added Component: Designator=F1(FP_1812_MULTIFUSE)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Name"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reference"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetAC/DC1_2 Pin=F1-1
+Added Pin To Net: NetName=Vcc Pin=F1-2
+Added Member To Class: ClassName=Node_Unit_Schematic Member=Component F1 Fuse

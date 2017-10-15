@@ -1,0 +1,52 @@
+Protel Design System Design Rule Check
+PCB File : D:\Altium\Projects\PCB_Project\Node_Unit_Board.PcbDoc
+Date     : 2017.10.15.
+Time     : 22:02:21
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.508mm) (InPoly),(not InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net NetQ1_2 Between Pad Q1-2(97.282mm,76.273mm) on Top Layer And Pad Q1-2(97.282mm,82.223mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C1-2(82.042mm,87.614mm) on Top Layer And Pad ARDUINO_MINI_PRO-GND(82.089mm,78.821mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net Vcc Between Pad ARDUINO_MINI_PRO-VCC(74.589mm,58.821mm) on Multi-Layer And Pad ARDUINO_MINI_PRO-VCC(77.089mm,60.071mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net Vcc Between Pad ARDUINO_MINI_PRO-VCC(77.089mm,60.071mm) on Multi-Layer And Pad ARDUINO_MINI_PRO-VCC(77.089mm,62.571mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net Vcc Between Pad ARDUINO_MINI_PRO-VCC(77.089mm,60.071mm) on Multi-Layer And Pad P1-1(94.615mm,54.166mm) on Multi-Layer 
+Rule Violations :5
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=2mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (Disabled)(All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 5
+Time Elapsed        : 00:00:01

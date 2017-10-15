@@ -1,0 +1,14 @@
+Added Component: Designator=ARDUINO_MINI_PRO(ARDUINO_MINI_PRO)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Output Switch Pin=ARDUINO_MINI_PRO-8
+Added Pin To Net: NetName=Digital Temp Sensor Pin=ARDUINO_MINI_PRO-9
+Added Pin To Net: NetName=Analog Gas Sensor Pin=ARDUINO_MINI_PRO-A0
+Added Pin To Net: NetName=GND Pin=ARDUINO_MINI_PRO-GND
+Added Pin To Net: NetName=GND Pin=ARDUINO_MINI_PRO-GND
+Added Pin To Net: NetName=GND Pin=ARDUINO_MINI_PRO-GND
+Added Pin To Net: NetName=GND Pin=ARDUINO_MINI_PRO-GND
+Added Pin To Net: NetName=NetARDUINO_MINI_PRO_RX Pin=ARDUINO_MINI_PRO-RX
+Added Pin To Net: NetName=NetARDUINO_MINI_PRO_RX Pin=ARDUINO_MINI_PRO-RX
+Added Pin To Net: NetName=NetARDUINO_MINI_PRO_TX Pin=ARDUINO_MINI_PRO-TX
+Added Pin To Net: NetName=NetARDUINO_MINI_PRO_TX Pin=ARDUINO_MINI_PRO-TX
+Added Member To Class: ClassName=Node_Unit_Schematic Member=Component ARDUINO_MINI_PRO

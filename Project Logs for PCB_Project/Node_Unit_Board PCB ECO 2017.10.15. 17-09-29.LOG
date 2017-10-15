@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=VAC Line Pin=REL1-1
+Removed Pin From Net: NetName=VAC REL Line Pin=REL1-3
+Removed Pin From Net: NetName=Vcc Pin=REL1-5
+Removed Member From Class: ClassName=Node_Unit_Schematic Member=REL1
+Change Component Designator: OldDesignator=C? NewDesignator=C1
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Added Component: Designator=*(PowerRelay 3V)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Vcc Pin=*-1
+Added Pin To Net: NetName=VAC REL Line Pin=*-4
+Added Pin To Net: NetName=VAC Line Pin=*-5
+Added Pin To Net: NetName=Net*_2 Pin=*-2
+Added Pin To Net: NetName=Net*_2 Pin=Q1-2
+Added Pin To Net: NetName=Net*_2 Pin=Q1-2
+Added Net: Name=Net*_2
+Added Member To Class: ClassName=Node_Unit_Schematic Member=Component * Power Relay 3VDC

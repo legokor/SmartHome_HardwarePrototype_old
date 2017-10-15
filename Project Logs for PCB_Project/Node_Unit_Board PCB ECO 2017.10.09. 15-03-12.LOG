@@ -1,0 +1,3 @@
+Added Component: Designator=IC*(ESP8266 ESP-12-E)
+Add component. Clean all parameters for all variants
+Added Member To Class: ClassName=Node_Unit_Schematic Member=Component IC* ESP8266 ESP-12-E

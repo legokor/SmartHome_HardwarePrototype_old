@@ -1,0 +1,76 @@
+Added Component: Designator=AC/DC1(AC/DC Converter)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Name"; Value = "VTX-214-001-103"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reference"; Value = "2401019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Farnell"; VariantName = "[No Variations]"
+Added Component: Designator=CON1(Serial_Connector)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Name"; Value = "SORKAPOCS 3 P RM5.00 CZM5/3 (STE) 1mmø 13.5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reference"; Value = "43-06-55"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Lomex"; VariantName = "[No Variations]"
+Added Component: Designator=CON2(Serial_Connector)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Name"; Value = "SORKAPOCS 3 P RM5.00 CZM5/3 (STE) 1mmø 13.5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reference"; Value = "43-06-55"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Lomex"; VariantName = "[No Variations]"
+Added Component: Designator=D1(FP_SMA)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Name"; Value = "LITTELFUSE  SMAJ5.0A  TVS Diode, TRANSZORB SMAJ Series, Unidirectional, 5 V, 9.2 V, DO-214AC, 2 Pins"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reference"; Value = "1827607"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "U_Z"; Value = "24"; VariantName = "[No Variations]"
+Added Component: Designator=Q1(FP_SOT223)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Name"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reference"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R1(FP_0805_RES)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Name"; Value = "YAGEO (PHYCOMP)  RC0805JR-0710KL  SMD Chip Resistor, Thick Film, 10 kohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "125mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reference"; Value = "9234136"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=REL1(SPDT-GLA5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Name"; Value = "MECH 5V 1xMORSE 15A/24DC&125AC LEG-5F 5DC (RAY) 70R 19.5x15.8x15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reference"; Value = "42-02-61"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Lomex"; VariantName = "[No Variations]"
+Added Net: Name=Analog Gas Sensor
+Added Pin To Net: NetName=Digital Temp Sensor Pin=R1-1
+Added Net: Name=Digital Temp Sensor
+Added Pin To Net: NetName=GND Pin=AC/DC1-1
+Added Pin To Net: NetName=GND Pin=D1-1
+Added Pin To Net: NetName=GND Pin=Q1-3
+Added Net: Name=GND
+Added Pin To Net: NetName=NetAC/DC1_2 Pin=AC/DC1-2
+Added Net: Name=NetAC/DC1_2
+Added Net: Name=NetARDUINO_MINI_PRO_RX
+Added Net: Name=NetARDUINO_MINI_PRO_TX
+Added Pin To Net: NetName=NetCON1_3 Pin=CON1-3
+Added Pin To Net: NetName=NetCON1_3 Pin=REL1-3
+Added Net: Name=NetCON1_3
+Added Pin To Net: NetName=NetQ1_2 Pin=Q1-2
+Added Pin To Net: NetName=NetQ1_2 Pin=Q1-2
+Added Pin To Net: NetName=NetQ1_2 Pin=REL1-2
+Added Net: Name=NetQ1_2
+Added Pin To Net: NetName=Output Switch Pin=Q1-1
+Added Net: Name=Output Switch
+Added Pin To Net: NetName=VAC Line Pin=AC/DC1-4
+Added Pin To Net: NetName=VAC Line Pin=CON2-1
+Added Pin To Net: NetName=VAC Line Pin=REL1-1
+Added Net: Name=VAC Line
+Added Pin To Net: NetName=VAC Neutral Pin=AC/DC1-3
+Added Pin To Net: NetName=VAC Neutral Pin=CON1-2
+Added Pin To Net: NetName=VAC Neutral Pin=CON2-2
+Added Net: Name=VAC Neutral
+Added Pin To Net: NetName=VAC PE Pin=CON1-1
+Added Pin To Net: NetName=VAC PE Pin=CON2-3
+Added Net: Name=VAC PE
+Added Pin To Net: NetName=Vcc Pin=D1-2
+Added Pin To Net: NetName=Vcc Pin=R1-2
+Added Pin To Net: NetName=Vcc Pin=REL1-5
+Added Net: Name=Vcc
+Added Class: Name=Node_Unit_Schematic
+Added Room: Name=Node_Unit_Schematic

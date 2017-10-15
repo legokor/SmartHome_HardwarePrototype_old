@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=NetAC/DC1_2 Pin=F1-1
+Removed Pin From Net: NetName=Vcc Pin=F1-2
+Removed Member From Class: ClassName=Node_Unit_Schematic Member=F1
+Change component parameters: Designator = "Q1"; Footprint = "FP_SOT223"; UniqueID = "\IHSPDVEC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Name"; Value = "MOSFET Transistor, N Channel, 300mA, 60V, 2.8 ohm, 10V, 2V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Reference"; Value = "1510761"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "Farnell"; VariantName = "[No Variations]"
+Added Component: Designator=F?(FP_1812_MULTIFUSE)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Name"; Value = "PPTC Resettable Fuse, SMD, POLYFUSE 1812L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reference"; Value = "1597004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Farnell"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetAC/DC1_2 Pin=F?-1
+Added Pin To Net: NetName=Vcc Pin=F?-2
+Added Member To Class: ClassName=Node_Unit_Schematic Member=Component F? Multifuse

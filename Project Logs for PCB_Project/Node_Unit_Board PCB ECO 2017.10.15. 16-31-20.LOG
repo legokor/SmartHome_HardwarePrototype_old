@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=Output Switch Pin=ARDUINO_MINI_PRO-8
+Added Component: Designator=R?(FP_0805_RES)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Name"; Value = "YAGEO (PHYCOMP)  RC0805JR-0710KL  SMD Chip Resistor, Thick Film, 10 kohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "125mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reference"; Value = "9234136"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Output Switch Pin=R?-1
+Added Pin To Net: NetName=NetARDUINO_MINI_PRO_8 Pin=ARDUINO_MINI_PRO-8
+Added Pin To Net: NetName=NetARDUINO_MINI_PRO_8 Pin=R?-2
+Added Net: Name=NetARDUINO_MINI_PRO_8
+Added Member To Class: ClassName=Node_Unit_Schematic Member=Component R? 10K

@@ -1,0 +1,18 @@
+Added Component: Designator=P1(FP_CONN4_TUSKE_254MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Name"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reference"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P2(FP_CONN4_TUSKE_254MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Name"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reference"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Vcc Pin=P1-1
+Added Pin To Net: NetName=Digital Temp Sensor Pin=P1-2
+Added Pin To Net: NetName=GND Pin=P1-4
+Added Pin To Net: NetName=Vcc Pin=P2-1
+Added Pin To Net: NetName=GND Pin=P2-2
+Added Pin To Net: NetName=Analog Gas Sensor Pin=P2-4
+Added Member To Class: ClassName=Node_Unit_Schematic Member=Component P1 Connector
+Added Member To Class: ClassName=Node_Unit_Schematic Member=Component P2 Connector
