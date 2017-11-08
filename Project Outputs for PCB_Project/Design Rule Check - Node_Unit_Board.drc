@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : D:\Altium\Projects\PCB_Project\Node_Unit_Board.PcbDoc
-Date     : 2017.10.15.
-Time     : 22:02:21
+PCB File : C:\Users\DELL\Desktop\GitRepos\SmartHome_HardwarePrototype\Node_Unit_Board.PcbDoc
+Date     : 2017.11.08.
+Time     : 18:30:05
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
 Rule Violations :0
@@ -13,15 +13,15 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net NetQ1_2 Between Pad Q1-2(97.282mm,76.273mm) on Top Layer And Pad Q1-2(97.282mm,82.223mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C1-2(82.042mm,87.614mm) on Top Layer And Pad ARDUINO_MINI_PRO-GND(82.089mm,78.821mm) on Multi-Layer 
    Violation between Un-Routed Net Constraint: Net Vcc Between Pad ARDUINO_MINI_PRO-VCC(74.589mm,58.821mm) on Multi-Layer And Pad ARDUINO_MINI_PRO-VCC(77.089mm,60.071mm) on Multi-Layer 
    Violation between Un-Routed Net Constraint: Net Vcc Between Pad ARDUINO_MINI_PRO-VCC(77.089mm,60.071mm) on Multi-Layer And Pad ARDUINO_MINI_PRO-VCC(77.089mm,62.571mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net Vcc Between Pad ARDUINO_MINI_PRO-VCC(77.089mm,60.071mm) on Multi-Layer And Pad P1-1(94.615mm,54.166mm) on Multi-Layer 
-Rule Violations :5
+   Violation between Un-Routed Net Constraint: Net GND Between Pad ARDUINO_MINI_PRO-GND(82.089mm,78.821mm) on Multi-Layer And Track (121.539mm,90.297mm)(121.539mm,93.218mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetQ1_2 Between Pad Q1-2(97.282mm,76.273mm) on Top Layer And Pad Q1-2(97.282mm,82.223mm) on Top Layer 
+Rule Violations :4
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
-Rule Violations :0
+   Violation between Modified Polygon: Polygon Not Repour After Edit  (Top GND Polygon) on Top Layer 
+Rule Violations :1
 
 Processing Rule : Width Constraint (Min=0.254mm) (Max=2mm) (Preferred=0.254mm) (All)
 Rule Violations :0
@@ -44,9 +44,33 @@ Rule Violations :0
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
+Processing Rule : Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic'))
+   Violation between Room Definition: Between SMT Small Component R4-10K (100.584mm,87.122mm) on Top Layer And Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic')) 
+   Violation between Room Definition: Between SMT Small Component C3-10nF (70.612mm,70.104mm) on Top Layer And Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic')) 
+   Violation between Room Definition: Between SMT Small Component R2-10K (70.612mm,74.803mm) on Top Layer And Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic')) 
+   Violation between Room Definition: Between SMT Small Component B1-Button small (64.389mm,70.612mm) on Top Layer And Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic')) 
+   Violation between Room Definition: Between Component ARDUINO_MINI_PRO-ARDUINO_MINI_PRO (87.089mm,52.821mm) on Top Layer And Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic')) 
+   Violation between Room Definition: Between SIP Component P2-Connector (64.516mm,59.912mm) on Top Layer And Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic')) 
+   Violation between Room Definition: Between SIP Component P1-Connector (94.615mm,60.166mm) on Top Layer And Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic')) 
+   Violation between Room Definition: Between Component IC*-ESP8266 ESP-12-E (105.461mm,77.114mm) on Top Layer And Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic')) 
+   Violation between Room Definition: Between SMT Small Component R1-10K (98.425mm,55.118mm) on Top Layer And Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic')) 
+   Violation between Room Definition: Between Component Q1-NMOS (97.282mm,79.248mm) on Top Layer And Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic')) 
+   Violation between Room Definition: Between SMT Small Component D1-ZENER (107.061mm,87.249mm) on Top Layer And Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic')) 
+   Violation between Room Definition: Between Small Component CON2-Conector_Screws (62.611mm,101.854mm) on Top Layer And Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic')) 
+   Violation between Room Definition: Between Small Component CON1-Conector_Screws (80.137mm,117.348mm) on Top Layer And Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic')) 
+   Violation between Room Definition: Between Component AC/DC1-AC/DC Converter (103.531mm,117.314mm) on Top Layer And Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic')) 
+   Violation between Room Definition: Between SMT Small Component C1-10uF (82.042mm,86.614mm) on Top Layer And Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic')) 
+   Violation between Room Definition: Between SMT Small Component R3-10K (90.424mm,81.661mm) on Top Layer And Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic')) 
+   Violation between Room Definition: Between Component REL1-Power Relay 3VDC (86.487mm,92.616mm) on Top Layer And Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic')) 
+   Violation between Room Definition: Between SMT Small Component C2-10uF (122.936mm,79.883mm) on Top Layer And Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic')) 
+   Violation between Room Definition: Between SMT Small Component F1-Multifuse (121.472mm,87.503mm) on Top Layer And Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic')) 
+   Violation between Room Definition: Between Small Component P3-Connector (123.539mm,93.218mm) on Top Layer And Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic')) 
+   Violation between Room Definition: Between Small Component P4-Connector (99.695mm,47.117mm) on Top Layer And Room Node_Unit_Schematic (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Node_Unit_Schematic')) 
+Rule Violations :21
+
 Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 5
+Violations Detected : 26
 Time Elapsed        : 00:00:01
