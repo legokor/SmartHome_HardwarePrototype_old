@@ -1,0 +1,19 @@
+Added Component: Designator=P3(FP_CONN2_TUSKE_2MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Name"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reference"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P4(FP_CONN2_TUSKE_2MM_1.5+3.2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Name"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reference"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Vcc Pin=P3-1
+Added Pin To Net: NetName=GND Pin=P3-2
+Added Pin To Net: NetName=NetARDUINO_MINI_PRO_RX0 Pin=P4-1
+Added Pin To Net: NetName=UART Pin=ARDUINO_MINI_PRO-TX0
+Added Pin To Net: NetName=UART Pin=IC*-21
+Added Pin To Net: NetName=UART Pin=P4-2
+Added Net: Name=UART
+Added Member To Class: ClassName=Node_Unit_Schematic Member=Component P3 Connector
+Added Member To Class: ClassName=Node_Unit_Schematic Member=Component P4 Connector
