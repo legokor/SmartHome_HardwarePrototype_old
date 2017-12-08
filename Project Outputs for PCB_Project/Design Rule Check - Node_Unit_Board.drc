@@ -15,9 +15,11 @@ Rule Violations :0
 Processing Rule : Un-Routed Net Constraint ( (All) )
    Violation between Un-Routed Net Constraint: Net GND Between Pad P2-2(94.615mm,61.214mm) on Multi-Layer And Track (121.539mm,90.297mm)(121.539mm,93.218mm) on Top Layer 
 Rule Violations :1
+Rule Violations :4
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
-Rule Violations :0
+   Violation between Modified Polygon: Polygon Not Repour After Edit  (Top GND Polygon) on Top Layer 
+Rule Violations :1
 
 Processing Rule : Width Constraint (Min=0.254mm) (Max=2mm) (Preferred=0.254mm) (All)
 Rule Violations :0
@@ -45,4 +47,4 @@ Rule Violations :0
 
 
 Violations Detected : 1
-Time Elapsed        : 00:00:00
+Time Elapsed        : 00:00:01
